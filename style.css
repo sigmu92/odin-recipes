@@ -1,12 +1,21 @@
 * {
     background-color: rgb(50, 121, 192);
     color: white;
+    font-family: helvetica, sans-serif;
     
 }
 
 img {
-    align-content: center;
     border-radius: 10px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 }
 
 h1 {
@@ -25,7 +34,7 @@ h2 {
     font-size: 36px;
 }
 
-h3 {
+h3, p {
     font-size: 24px;
 }
 
